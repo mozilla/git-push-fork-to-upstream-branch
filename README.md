@@ -54,7 +54,7 @@ To push to an upstream branch other than `trigger-integration`, set:
 
     export GPF_UPSTREAM_BRANCH=my-custom-branch-name
 
-To push code to the upstream branch via ssh rather than the default of https, set:
+To push code to the upstream branch via SSH rather than the default of HTTPS, set:
 
     export GPF_USE_SSH=true
 
