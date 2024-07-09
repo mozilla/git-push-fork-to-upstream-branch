@@ -83,7 +83,7 @@ git-push-fork-to-upstream-branch upstream jklukas:new-feature
 That invocation assumes that your remote is named `upstream` and it copies in
 the `username:branch` from the PR; note that GitHub includes a handy button
 right next to that text for copying to the clipboard and pasting to this command.
-The code has now been pushed to the `trigger-integration`and because this is
+The code has now been pushed to the `trigger-integration` and because this is
 exactly the same commit (with the same hash) as on the forked repository, most
 CI systems will trigger a build that GitHub then associates with the forked PR.
 You should see status change in the PR to indicate that a new build is running.
